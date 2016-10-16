@@ -20,4 +20,11 @@
 			hozzáadhat alkalmazottat az adatbázishoz, illetve törölhet onnan alkalmazottat.
 			Továbbá az adminisztrátornak van joga a beállításokat végezni (PL: ratár maximális kapacitása)
 			
+	Beállítások:
+		Csak az adminisztrátornak van joga ezt a funkciót elérni, mely tartalmazza az alábbiakat:
+			- Raktár maximális kapacitása
+			- Alkalmazott felvétele
+			- Alkalmazott törlése
+			- Alkalmazott adatok módosítása
+	
 	
