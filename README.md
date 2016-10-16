@@ -27,4 +27,14 @@
 			- Alkalmazott törlése
 			- Alkalmazott adatok módosítása
 	
-	
+	Új készlet elhelyezése:
+		Új készletet felvételre kerül a raktár adatbázisába paraméterek szerint melyek az alábbiak
+			- egység méret (térbeli kiterjedése)
+			- darabszám
+			- név
+			- egyéni ID
+		Ha nem sikerül mindet elhelyezni akkor visszaajda az el nem helyezhető termékek számát
+		
+	Készlet csökkentése:
+		Az új készlet elhelyezésénél felsorolt paraméterek alpaján csökkenti a készletet
+		Hibát dob ha a menyiség meghaladja a raktáron lévő mennyiséget.
