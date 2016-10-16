@@ -44,21 +44,29 @@
 ##Nem funkcionális követelmények:
 
 	Használhatóság: 
-		Egyszerű, átlátható GUI minden felhasználó számára. Ne legyen szükséges dokumentációt átolcasni
-		a használathoz azaz önmagyarázó legyen
+		Egyszerű, átlátható GUI minden felhasználó számára. Ne legyen szükséges dokumentációt
+		átolcasni a használathoz azaz önmagyarázó legyen
 	
 	Teljesítmény: 
-		Mivel minden raktár helység önálló adatbázissal rendelkezik és a raktáerak mérete is igen csak véges, továbbá 				optimalizált SQL lekérdezések biztosítják az alkalmazás gyors futását
+		Mivel minden raktár helység önálló adatbázissal rendelkezik és a raktáerak
+		mérete is igen csak véges, továbbá optimalizált SQL lekérdezések biztosítják 
+		az alkalmazás gyors futását
 		
 	Rendelkezésre állás:
-		Az adatbázis tároló szervert a Giantsoft üzemelteti, akik biztosítják azt hogy a szervereik egy éveben 99.9% ban 			rendelkezésre állnak.
+		Az adatbázis tároló szervert a Giantsoft üzemelteti, akik biztosítják azt hogy 
+		a szervereik egy éveben 99.9% ban rendelkezésre állnak.
 
 	Skálázhatóság:
-		Álltalában egy raktárhoz egy program és adatbázis tartozik. Ha a felhasználó egy szerver gépen akrja tárolni több 			raktára adatát egyeztessen a Giantsoft munkatársaival milyen konfigurációt érdemes bérelnie
+		Álltalában egy raktárhoz egy program és adatbázis tartozik. Ha a felhasználó 
+		egy szerver gépen akrja tárolni több raktára adatát egyeztessen a Giantsoft
+		munkatársaival milyen konfigurációt érdemes bérelnie
 		
 	Biztonság: 
-		Bármilyen funkció eléréséhez szükséges a bejelentkezés, továbbá minden kötelezően kitöltendő mezőben ellenőrizzük
-		az adatokat még mielőtt azok tovább küldésre kerülnének. További biztonsági intézkedés hogy adatokat egyedül az 			adminisztrátor módosíthat alkalmazottaknál, illetve csak ők vehetnek fel újabb alkalmazottat, továbbá egyedül ők férnek 		hozzá a beállíátsokhoz
+		Bármilyen funkció eléréséhez szükséges a bejelentkezés, továbbá minden kötelezően
+		kitöltendő mezőben ellenőrizzük	az adatokat még mielőtt azok tovább küldésre kerülnének.
+		További biztonsági intézkedés hogy adatokat egyedül az adminisztrátor módosíthat 
+		alkalmazottaknál, illetve csak ők vehetnek fel újabb alkalmazottat, 
+		továbbá egyedül ők férnek hozzá a beállíátsokhoz
 		
 	Karbantarthatóság: 
 		
