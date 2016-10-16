@@ -1,5 +1,5 @@
 
-## Funkcionális és nem funkcionális követelmények:
+## Funkcionális és nem funkcionális követelmények
 
 ## Feledat leírás:
 
@@ -9,10 +9,15 @@
 
 ## Funkcionális követelmények:
 	
-	#Bejelentkezés:
+	Bejelentkezés:
 		Alkalmazott:
 			csak olyan alkalmazott jelentkezhet be és dolgozhat a raktár kezelő programmal
 			aki szerepel az "ALKALMAZOTTAK" adatbázis táblában, melynek kezeléséhez adminisztrátori
 			jog kell
 		
 		Adminisztrátor:
+			MInden műveletet elvégezhet amelyet egy alkalmazott képes. Ezeken felül az admnisztrátor
+			hozzáadhat alkalmazottat az adatbázishoz, illetve törölhet onnan alkalmazottat.
+			Továbbá az adminisztrátornak van joga a beállításokat végezni (PL: ratár maximális kapacitása)
+			
+	
