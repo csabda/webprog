@@ -1,4 +1,3 @@
-###Alkalmazások fejlesztése
 
 ## Funkcionális és nem funkcionális követelmények:
 
@@ -10,7 +9,7 @@
 
 ## Funkcionális követelmények:
 	
-	Bejelentkezés:
+	#Bejelentkezés:
 		Alkalmazott:
 			csak olyan alkalmazott jelentkezhet be és dolgozhat a raktár kezelő programmal
 			aki szerepel az "ALKALMAZOTTAK" adatbázis táblában, melynek kezeléséhez adminisztrátori
