@@ -34,7 +34,9 @@
 			- név
 			- egyéni ID
 		Ha nem sikerül mindet elhelyezni akkor visszaajda az el nem helyezhető termékek számát
+		Alkalmazottak és Adminisztrátorok egyaránt használhatják ezta funkciót.
 		
 	Készlet csökkentése:
 		Az új készlet elhelyezésénél felsorolt paraméterek alpaján csökkenti a készletet
 		Hibát dob ha a menyiség meghaladja a raktáron lévő mennyiséget.
+		Alkalmazottak és Adminisztrátorok egyaránt használhatják ezta funkciót.
