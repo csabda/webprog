@@ -40,3 +40,18 @@
 		Az új készlet elhelyezésénél felsorolt paraméterek alpaján csökkenti a készletet
 		Hibát dob ha a menyiség meghaladja a raktáron lévő mennyiséget.
 		Alkalmazottak és Adminisztrátorok egyaránt használhatják ezta funkciót.
+
+##Nem funkcionális követelmények:
+	Használhatóság: 
+		Egyszerű, átlátható GUI minden felhasználó számára. Ne legyen szükséges dokumentációt átolcasni
+		a használathoz azaz önmagyarázó legyen
+	
+	Teljesítmény: 
+		Mivel minden raktár helység önálló adatbázissal rendelkezik és a raktáerak mérete is igen csak véges, továbbá 				optimalizált SQL lekérdezések biztosítják az alkalmazás gyors futását
+		
+	Rendelkezésre állás:
+		
+több esetben százalékban megadott érték. A 99%-os rendelkezésre állás azt jelenti, hogy a felhasználók az esetek 99%-ban elérik a szolgáltatásokat. Többnyire része a a Szolgáltatási Szint Megállapodásnak (SLA: Service Level Agreement ). Jellemzően szolgáltatás-mérési mutató. Mérésének ellenőrzésére egyszerűen alkalmazhatóak a szerver logok.
+Skálázhatóság: a rendszer növekedéséből fakadóan milyen bővítéseket kell tennünk, például milyen szervereket kell üzembe helyezni. Jellemzően az elvárt teljesítményből határozhatjuk meg.
+Biztonság: adat-védelmi elvárások meghatározása. Webes alkalmazások biztonsági tesztelése nem egyszerű feladat, az alkalmazás normál működésén alapulva megpróbálunk ártalmas tevékenységet véghezvinni, azaz például személyes adatokat próbálunk megszerezni, módosítjuk az oldal tartalmát, esetleg összeomlasztjuk a rendszert.
+Karbantarthatóság: olyan a megbízó által adott elvárások, melyek az alkalmazás üzemeltetésével, karbantartásával, bővítésével kapcsolatosak.
