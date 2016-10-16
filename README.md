@@ -1,4 +1,4 @@
-Alkalmazások fejlesztése
+###Alkalmazások fejlesztése
 
 ## Funkcionális és nem funkcionális követelmények:
 
