@@ -69,4 +69,5 @@
 		továbbá egyedül ők férnek hozzá a beállíátsokhoz
 		
 	Karbantarthatóság: 
-		
+		Az alkalmazás megvalósítása az MVC modellt fogja követni így moduláris lesz a rendszer
+		Könnyen hozzáadhatunk újabb modulokat a különböző rétegekhez vagy módosíthajtuk őket
