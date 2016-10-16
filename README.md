@@ -1,5 +1,5 @@
 
-## Funkcionális és nem funkcionális követelmények
+## Funkcionális és nem funkcionális követelmények - Pintér Kristóf Balázs (GEGST8)
 
 ## Feledat leírás:
 
